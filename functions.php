@@ -6,9 +6,9 @@
  */
 require WP_CONTENT_DIR . '/plugins/plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/csd509j/CorvallisHigh',
+	'https://github.com/csd509j/CorvallisHighSchool',
 	__FILE__,
-	'CorvallisHigh'
+	'CorvallisHighSchool'
 );
 
 $myUpdateChecker->setBranch('master'); 
